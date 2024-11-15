@@ -79,22 +79,7 @@ This project is a comprehensive Student Attendance System that uses IoT devices 
 - `styles.css`: CSS styles for the web interface
 - `script.js`: JavaScript for the web interface
 
-## Workflow
-
-### Step 1: Set Up the Node.js Backend
-
-- Open a terminal and navigate to the project directory.
-- Start the server by running the following command:
-  ```bash
-  node server.js
-  ```
-
-- Open another terminal in the same directory and run the client receiver:
-  ```bash
-  node client_receive.js
-  ```
-
-### Step 2: Configure and Upload Arduino Code
+## \Configure and Upload Arduino Code
 
 - Open the Arduino IDE and load the provided Arduino sketch.
 - Ensure the following configurations match your setup:
