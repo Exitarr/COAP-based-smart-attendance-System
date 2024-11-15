@@ -79,7 +79,13 @@ This project is a comprehensive Student Attendance System that uses IoT devices 
 - `styles.css`: CSS styles for the web interface
 - `script.js`: JavaScript for the web interface
 
-## \Configure and Upload Arduino Code
+## Configure and Upload Arduino Code
+
+- replace `ssid` and `password` with your WiFi credentials
+- replace `serverIP` with the IP address of the CoAP server
+- replace `serverPort` with the port on which the server is listening
+- update the pin numbers for the IR and PIR sensors and LED configuration
+
 
 - Open the Arduino IDE and load the provided Arduino sketch.
 - Ensure the following configurations match your setup:
@@ -112,8 +118,3 @@ void sendAttendance(int count) {
 ```
 
 This function uses the CoAP-simple library.
-
-### Set Up and Access the Frontend
-
-- Open `index.html` in your browser.
-- The frontend uses `script.js` to fetch attendance data streamed by `client_receive.js`.

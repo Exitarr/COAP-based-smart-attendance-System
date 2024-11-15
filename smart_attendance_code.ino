@@ -3,20 +3,20 @@
 #include "coap-simple.h"   // Include the CoAP library
 
 // WiFi network credentials
-const char* ssid = "Rajdeep";           // Replace with your WiFi SSID
-const char* password = "123467890";     // Replace with your WiFi password
+const char* ssid = "your-ssid";           // Replace with your WiFi SSID
+const char* password = "your-password";     // Replace with your WiFi password
 
 // CoAP server details
 const IPAddress serverIP(192,168,239,43);  // Replace with your CoAP server IP
 const int serverPort = 5683;               // Default CoAP port (5683)
 
 // Define sensor pins
-const int IR_SENSOR_PIN = 21;
-const int PIR_SENSOR_PIN = 23;
+const int IR_SENSOR_PIN = ;
+const int PIR_SENSOR_PIN = ;
 
 // Define LED pins
-const int GREEN_LED_PIN = 25;
-const int RED_LED_PIN = 26;
+const int GREEN_LED_PIN = ;
+const int RED_LED_PIN = ;
 
 // State tracking variables
 bool entryDetected = false;
