@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Attendance Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Attendance Dashboard</h1>
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Max Daily Attendance (Last 10 Days)</h2>
+      </div>
+      <div class="card-content">
+        <table id="attendanceTable">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Max Attendance</th>
+            </tr>
+          </thead>
+          <tbody id="attendanceTableBody">
+            <!-- Table rows will be inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Real-time Attendance Log</h2>
+      </div>
+      <div class="card-content">
+        <div id="error" class="error" style="display: none;"></div>
+        <div id="logArea" class="log-area">
+          <!-- Log entries will be inserted here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
